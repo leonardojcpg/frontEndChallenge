@@ -22,12 +22,10 @@ export const Header = () => {
                     </div>
                 </div>
                 <div className="content-accessibility">
-                    <h5>Acessibilidade</h5>
-                    <div className="accessibilityIcons">
-                        <img src={accesibilityIcon1} alt="" />
-                        <img src={accesibilityIcon2} alt="" />
-                        <img src={accesibilityIcon3} alt="" />
-                    </div>
+                    <h5>Acessibilidade: </h5>
+                    <img id="img1" src={accesibilityIcon1} alt="" />
+                    <img id="img2" src={accesibilityIcon2} alt="" />
+                    <img id="img3" src={accesibilityIcon3} alt="" />
                 </div>
                 <div className="content-icons">
                     <img src={contentIcons} alt="" />
