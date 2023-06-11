@@ -1,4 +1,5 @@
 .banner-container{
+    font-family: "Brandon Text";
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -20,6 +21,89 @@
     width: 296px;
     height: 82px;
     left: 111px;
-    top: 454px;
+    top: 434px;
     opacity: 0.2;
+}
+
+.rectangle{
+    position: absolute;
+    width: 1032px;
+    height: 4px;
+    left: 333px;
+    top: 463px;
+}
+
+.info{
+    z-index: 1;
+}
+
+#blueText{
+    margin-top: 16px;
+    width: 624px;
+    height: 40px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.info img{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 291px;
+    height: 42px;
+    flex: none;
+    order: 4;
+    flex-grow: 0
+}
+
+.info h2{
+    margin-top: 100px;
+    font-weight: 400;
+    width: 624px;
+    height: 56px;
+    font-family: 'Brandon Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.bullets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 16px;
+    height: 48px;
+    margin-left: 1274px;
+    margin-top: 300px;
+}
+
+.bannerImg{
+    position: absolute;
+    width: 1032px;
+    height: 500px;
+    left: 333px;
+    top: -23px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/bannerImg.svg");
+    border-radius: 12px 0px 0px 4px;
 }
