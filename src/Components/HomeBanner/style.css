@@ -1,0 +1,25 @@
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 0px 0px 75px;
+    width: 1440px;
+    height: 524px;
+    background: #12284C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.texture{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    width: 296px;
+    height: 82px;
+    left: 111px;
+    top: 454px;
+    opacity: 0.2;
+}
