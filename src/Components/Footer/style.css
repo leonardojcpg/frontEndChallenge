@@ -1,32 +1,28 @@
-.footer-container{
-    background-color: #0c1b33;
-    width: 1440px;
-    height: 56px;
+.footer-container {
+    background-color: #0C1B33;
+    font-family: "Brandon Text";
+    font-weight: 390;
+    height: 80px;
     margin-top: 1984px;
-    display: flex;
-}
-
-.container-content{
-    align-items: center;
-    display: flex;
+  }
+  
+  .container-content {
+    color: #fff;
     width: 1290px;
     height: 24px;
-    top: 16px;
-    left: 75px;
-    bottom: 16px;
-    justify-content: space-between;
-}
-
-.copyright{
-    width: 157px;
-    height: 24px;
-    font-family: 'Brandon Text';
-    font-size: 14px;
-    line-height: 24px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  .container-content h4{
+    margin-left: 75px;
     color: #00ADBB;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+  }
+  
+  .linkedinLogo img {
+    width: 24px;
+    height: 24px;
+  }
+  
