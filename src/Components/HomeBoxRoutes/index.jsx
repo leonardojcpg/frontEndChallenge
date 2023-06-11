@@ -1,38 +1,54 @@
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-import iconResults from "./assets/iconResults.svg"
-import iconAnnouncements from "./assets/iconAnnouncements.svg"
-import iconPresentation from "./assets/iconPresentation.svg"
-
-import Home from "../../Pages/Home"
-import Results from "../../Pages/Results"
-import Announcements from "../../Pages/Announcements"
-import Presentation from "../../Pages/Presentation"
-
+import "../HomeBoxRoutes/style.css";
+import iconResults from "./assets/iconResults.svg";
+import iconAnnouncements from "./assets/iconAnnouncements.svg";
+import iconPresentation from "./assets/iconPresentation.svg";
+import iconYduqs from "./assets/iconYduqs.svg";
+import iconContact from "./assets/contact.svg";
+import iconEmail from "./assets/iconEmail.svg";
 
 export const HomeBoxRoutes = () => {
-    const icons = [
-        {
-            id: 1,
-            name: "Results",
-            route: "/results",
-            image: iconResults,
-        },
-        {
-            id: 2,
-            name: "announcements",
-            route: "/announcements",
-            image: iconAnnouncements,
-        },
-        {
-            id: 3,
-            name: "presentation",
-            route: "/presentation",
-            image: iconPresentation,
-        },
-    ]
-    return (
-        <div className="container">
-            
-        </div>
-    )
-}
+  return (
+    <div className="container">
+      <div className="boxes">
+        <ul>
+          <li>
+            <a href="/Results">
+              <img src={iconResults} alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="/Announcements">
+              <img src={iconAnnouncements} alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="/Presentation">
+              <img src={iconPresentation} alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="/">
+              <img src={iconYduqs} alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="/">
+              <img src={iconContact} alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="/">
+              <img src={iconEmail} alt="" />
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  );
+};
