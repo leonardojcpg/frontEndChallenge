@@ -1,4 +1,4 @@
-import "./style.css"
+import "./styles.scss"
 import institutional from "./assets/institucional.svg"
 import texture from "./assets/texture.svg"
 

@@ -1,4 +1,4 @@
-import "../src/global.css"
+import "../src/styles.scss"
 import {Home} from "./Pages/Home"
 
 

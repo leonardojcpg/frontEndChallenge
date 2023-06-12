@@ -1,4 +1,4 @@
-import "./style.css"
+import "./styles.scss"
 import logo from "./assets/logo.svg"
 import graphicIcon from "./assets/graphicIcon.svg"
 import accesibilityIcon1 from "./assets/accessibilityIcon1.svg"

@@ -1,4 +1,4 @@
-import "./style.css"
+import "./styles.scss"
 import investidors from "./assets/investidors.svg"
 
 export const HomeResultsCenter = () => {

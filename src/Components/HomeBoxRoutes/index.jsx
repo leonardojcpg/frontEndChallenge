@@ -1,4 +1,4 @@
-import "../HomeBoxRoutes/style.css";
+import "../HomeBoxRoutes/styles.scss";
 import iconResults from "./assets/iconResults.svg";
 import iconAnnouncements from "./assets/iconAnnouncements.svg";
 import iconPresentation from "./assets/iconPresentation.svg";

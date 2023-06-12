@@ -1,5 +1,5 @@
 import linkedinLogo from "./assets/linkedin.svg";
-import "../Footer/style.css";
+import "../Footer/styles.scss";
 
 export const Footer = () => {
   return (

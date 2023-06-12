@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styles.scss";
 import boxTexture from "./assets/box-textura.svg";
 import rectangleImg from "./assets/Rectangle 3.svg";
 import info from "./assets/info.svg";
