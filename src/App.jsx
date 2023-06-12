@@ -1,10 +1,11 @@
 import "../src/styles.scss"
-import AppRouter from "./Routes/index.jsx"
+import Home from "./Pages/Home"
+
 
 function App() {
   return (
     <div>
-      <AppRouter/>
+      <Home/>
     </div>
   )
 }
