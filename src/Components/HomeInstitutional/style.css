@@ -17,3 +17,13 @@
     width: 1440px;
     height: 82px;
 }
+
+@media (max-width: 600px) {
+    .cards {
+      margin-top: 50px;
+    }
+  
+    .texture {
+      margin-top: 10px;
+    }
+  }

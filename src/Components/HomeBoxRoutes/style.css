@@ -14,3 +14,11 @@
     align-self: stretch;
     flex-grow: 0;
 }
+
+@media (max-width: 600px) {
+    .boxes {
+      flex-direction: column; 
+      padding: 20px 10px; 
+      gap: 10px; 
+    }
+  }

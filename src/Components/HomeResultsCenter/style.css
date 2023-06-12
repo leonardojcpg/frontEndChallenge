@@ -1,3 +1,10 @@
 .resultsContainer{
     margin-top: 425px;
+
 }
+
+@media (max-width: 600px) {
+    .resultsContainer{
+        margin-top: 50px;
+    }
+  }

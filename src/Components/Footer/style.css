@@ -1,10 +1,15 @@
 .footer-container {
     background-color: #0C1B33;
-    font-family: "Brandon Text";
+    font-family: "Brandon Text", sans-serif;
     font-weight: 390;
     height: 56px;
+    width: 1440px;
   }
-  
+  span h5{
+    font-weight: 390;
+    font-style: normal;
+    line-height: 24px;
+  }
   .container-content {
     color: #fff;
     width: 1290px;
