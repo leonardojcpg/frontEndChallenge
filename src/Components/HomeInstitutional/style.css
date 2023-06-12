@@ -7,3 +7,13 @@
     flex: none;
     align-self: stretch;
 }
+
+.texture{
+    color: #c9c9c9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 955px;
+    width: 1440px;
+    height: 82px;
+}

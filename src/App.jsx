@@ -1,18 +1,11 @@
 import "../src/global.css"
-import { Footer } from "./Components/Footer"
-import { Header } from "./Components/Header"
-import { HomeBanner } from "./Components/HomeBanner"
-import {HomeBoxRoutes} from "./Components/HomeBoxRoutes/index"
-import { HomeInstitutional } from "./Components/HomeInstitutional"
+import {Home} from "./Pages/Home"
+
 
 function App() {
   return (
     <div>
-      <Header/>
-      <HomeBanner/>
-      <HomeBoxRoutes/>
-      <HomeInstitutional/>
-      <Footer/>
+      <Home/>
     </div>
   )
 }
