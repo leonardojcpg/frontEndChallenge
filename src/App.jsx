@@ -3,6 +3,7 @@ import { Footer } from "./Components/Footer"
 import { Header } from "./Components/Header"
 import { HomeBanner } from "./Components/HomeBanner"
 import {HomeBoxRoutes} from "./Components/HomeBoxRoutes/index"
+import { HomeInstitutional } from "./Components/HomeInstitutional"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <HomeBanner/>
       <HomeBoxRoutes/>
+      <HomeInstitutional/>
       <Footer/>
     </div>
   )

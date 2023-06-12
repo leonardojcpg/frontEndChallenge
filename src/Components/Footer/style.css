@@ -25,3 +25,39 @@
     width: 24px;
     height: 24px;
   }
+
+
+  @media (max-width: 600px){
+    .footer-container {
+      background-color: #0C1B33;
+      font-family: "Brandon Text";
+      font-weight: 390;
+      height: 80px;
+      margin-top: 1984px;
+    }
+    
+    .container-content {
+      color: #fff;
+      width: 100%; /* Alterado para largura de 100% */
+      height: auto; /* Alterado para altura automática */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Alterado para centralizar o conteúdo */
+      align-items: center;
+      padding: 0 15px; /* Adicionado espaçamento horizontal */
+    }
+    
+    .container-content h4 {
+      margin: 0; /* Removido o espaçamento à esquerda */
+      text-align: center; /* Centralizado o texto */
+      color: #00ADBB;
+    }
+    
+    .linkedinLogo img {
+      width: 24px;
+      height: 24px;
+      margin-left: 10px; /* Adicionado espaçamento à esquerda */
+      margin-right: 10px; /* Adicionado espaçamento à direita */
+    }
+    
+  }
