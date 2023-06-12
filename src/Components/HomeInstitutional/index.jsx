@@ -1,13 +1,11 @@
 import "./style.css"
-import aboutUsCard from "./assets/abouUsCard.svg"
+import institutional from "./assets/institucional.svg"
 
 export const HomeInstitutional = () => {
     return (
         <div className="container">
             <div className="cards">
-                <div className="aboutUsCard">
-                    <img src={aboutUsCard} alt="" />
-                </div>
+            <img src={institutional} alt="" />
             </div>
         </div>
     )

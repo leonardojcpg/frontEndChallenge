@@ -1,11 +1,9 @@
-.aboutUsCard{
+.cards{
     margin-top: 225px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 360px;
-    height: 450px;
+    width: 1940px;
+    flex-direction: row;
+    align-items: flex-end;
     flex: none;
-    order: 0;
-    flex-grow: 1;
+    align-self: stretch;
 }
