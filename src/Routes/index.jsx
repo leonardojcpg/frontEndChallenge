@@ -1,19 +1,20 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from "../Pages/Home";
-import Results from "../Pages/Results";
-import Anouncements from "../Pages/Announcements";
+import {Router, Route, Routes } from 'react-router-dom';
+import Home from '../Pages/Home';
+import Results from "../Pages/Results"
+import Announcements from "../Pages/Announcements"
 import Presentation from "../Pages/Presentation"
 
-export const Routes = () => {
+const AppRouter = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/Results" component={Results} />
-        <Route path="/Anouncements" component={Anouncements} />
-        <Route path="/Presentation" component={Presentation} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/results" element={<Results />} />
+        <Route path="/announcements" element={<Announcements />} />
+        <Route path="/presentation" element={<Presentation />} />
+      </Routes>
     </Router>
   );
-}
+};
 
+export default AppRouter;

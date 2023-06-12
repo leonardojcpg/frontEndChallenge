@@ -5,7 +5,7 @@ import {HomeBoxRoutes} from "../../Components/HomeBoxRoutes"
 import {HomeInstitutional} from "../../Components/HomeInstitutional"
 import { HomeResultsCenter } from "../../Components/HomeResultsCenter"
 
-export const Home = () => {
+const Home = () => {
     return (
         <>
       <Header/>
@@ -17,3 +17,5 @@ export const Home = () => {
         </>
     )
 }
+
+export default Home;
