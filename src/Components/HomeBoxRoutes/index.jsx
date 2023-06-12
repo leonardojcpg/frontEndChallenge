@@ -5,6 +5,7 @@ import iconPresentation from "./assets/iconPresentation.svg";
 import iconYduqs from "./assets/iconYduqs.svg";
 import iconContact from "./assets/contact.svg";
 import iconEmail from "./assets/iconEmail.svg";
+import { Link } from "react-router-dom";
 
 export const HomeBoxRoutes = () => {
   return (
@@ -12,39 +13,39 @@ export const HomeBoxRoutes = () => {
       <div className="boxes">
         <ul>
           <li>
-            <a href="/Results">
+            <Link to="/results">
               <img src={iconResults} alt="" />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/Announcements">
+            <Link to="/announcements">
               <img src={iconAnnouncements} alt="" />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/Presentation">
+            <Link to="/presentation">
               <img src={iconPresentation} alt="" />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/">
+            <Link to="/">
               <img src={iconYduqs} alt="" />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/">
+            <Link to="/">
               <img src={iconContact} alt="" />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/">
+            <Link to="/">
               <img src={iconEmail} alt="" />
-            </a>
+            </Link>
           </li>
           
         </ul>

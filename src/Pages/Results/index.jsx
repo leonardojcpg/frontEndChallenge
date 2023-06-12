@@ -1,11 +1,9 @@
-import { Footer } from "../../Components/Footer"
-import { Header } from "../../Components/Header"
+
 
 const Results = () => {
     return (
         <>
-        <Header/>
-        <Footer/>
+            <h1>ola</h1>
         </>
     )
 }
