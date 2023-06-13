@@ -1,63 +1,118 @@
-
-#weAre{
-    position: absolute;
-    width: 1254px;
-    height: 300px;
-    left: 186px;
-    top: 0px;
+#weAre {
+  position: absolute;
+  width: 1254px;
+  height: 300px;
+  left: 186px;
+  top: 0px;
 }
 
-h2{
-    margin-left: 297px;
-    margin-top: 296px;
-    width: 846px;
-    height: 56px;
-    font-family: 'Brandon Text';
-    font-style: normal;
-    font-weight: 330;
-    font-size: 40px;
-    line-height: 56px;
+h2 {
+  margin-left: 297px;
+  margin-top: 296px;
+  width: 846px;
+  height: 56px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 330;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #12284c;
+}
+
+#bg {
+  position: absolute;
+  width: 1441px;
+  height: 235px;
+  left: 0px;
+  top: 0px;
+  background: #12284c;
+}
+
+#texture1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 296px;
+  height: 46px;
+  left: 0px;
+  top: 204px;
+  opacity: 0.3;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 1440px;
+  height: 365px;
+}
+
+.infoShare {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1440px;
+  height: 137px;
+}
+.filterInput label {
+  margin-top: 26px;
+  margin-left: 610px;
+  width: 65px;
+  height: 24px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 390;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  color: #666666;
+}
+
+.filterInput input {
+  margin-top: -30px;
+  margin-left: 684px;
+  display: flex;
+  flex-direction: row;
+  width: 146px;
+  height: 40px;
+  background: #ffffff;
+  border: 0.5px solid #12284c;
+  border-radius: 2px;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 846px;
+  height: 245px;
+  overflow-x: scroll;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.title {
     display: flex;
-    align-items: center;
-    color: #12284C;
+  font-family: "Brandon Text";
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  background: #12284c;
 }
 
-#bg{
-    position: absolute;
-    width: 1441px;
-    height: 235px;
-    left: 0px;
-    top: 0px;
-    background: #12284C;
-}
-
-#texture1{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    position: absolute;
-    width: 296px;
-    height: 46px;
-    left: 0px;
-    top: 204px;
-    opacity: 0.3;
-}
-
-.body{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    width: 1440px;
-    height: 365px;
-}
-
-.infoShare{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 1440px;
-    height: 137px;
-}

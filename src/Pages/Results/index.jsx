@@ -4,8 +4,7 @@ import weAre from "./assets/WeAre.svg"
 import texture1 from "./assets/texture1.svg"
 import texture2 from "./assets/texture2.svg"
 import bg from "./assets/bg.svg"
-import content from "./assets/content.svg"
-import share from "./assets/compartilhar.svg"
+
 
 
 const Results = () => {
@@ -18,12 +17,11 @@ const Results = () => {
           <img id="weAre" src={weAre} alt="" />
           <h2>Central de Resultados</h2>
         </div>
-        <div className="body">
-          <img src={content} alt="" />
+        <div className="filterInput">
+          <label htmlFor="">Filtrar por: </label>
+          <input type="select" placeholder="" />
         </div>
-        <div className="infoShare">
-          <img src={share} alt="" />
-        </div>
+
         <Footer/>
     </div>
   )
