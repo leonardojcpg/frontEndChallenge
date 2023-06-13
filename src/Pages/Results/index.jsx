@@ -4,6 +4,7 @@ import weAre from "./assets/WeAre.svg"
 import texture1 from "./assets/texture1.svg"
 import texture2 from "./assets/texture2.svg"
 import bg from "./assets/bg.svg"
+import { Table } from "../../Components/ResultsTable";
 
 
 
@@ -21,7 +22,7 @@ const Results = () => {
           <label htmlFor="">Filtrar por: </label>
           <input type="select" placeholder="" />
         </div>
-
+        <Table/>
         <Footer/>
     </div>
   )
