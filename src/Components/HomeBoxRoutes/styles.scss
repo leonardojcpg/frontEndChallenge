@@ -15,6 +15,17 @@
   flex-grow: 0;
 }
 
+.boxes a:hover {
+  opacity: 80%;
+  
+}
+
+.boxes a:hover::after{
+  background-color: transparent;
+  transition: background-color 0.5s ease 0.5s;
+}
+
+
 @media (max-width: 600px) {
   .boxes {
     flex-direction: column; 
