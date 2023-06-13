@@ -1,3 +1,4 @@
+
 #weAre {
   position: absolute;
   width: 1254px;
@@ -90,7 +91,6 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
   width: 846px;
   height: 245px;
   overflow-x: scroll;
@@ -106,7 +106,7 @@ h2 {
 }
 
 .title {
-    display: flex;
+  display: flex;
   font-family: "Brandon Text";
   color: #fff;
   font-size: 19px;
@@ -116,3 +116,23 @@ h2 {
   background: #12284c;
 }
 
+.clickHere{
+  margin-top: 36px;
+  margin-left: 297px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 846px;
+}
+
+.share{
+  margin-top: 50px;
+  margin-left: 186px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 1068px;
+}
