@@ -1,5 +1,5 @@
 import "./styles.scss";
-import arrows from "./assets/arrows.svg";
+import arrows from "./assets/setas.svg";
 import iconUpOne from "./assets/iconUpOne.svg";
 import iconUpTwo from "./assets/iconUpTwo.svg";
 import iconUpThree from "./assets/iconUpThree.svg";
@@ -37,32 +37,38 @@ export const HomeResultsCenter = () => {
   return (
     <div className="resultsContainer">
       <div className="resultsCentral">
+
         <div className="titleResults">
           <h2>Central de Resultados</h2>
         </div>
-        <div className="arrow">
+
+        <div className="arrows">
           <img src={arrows} alt="" />
         </div>
+
         <div className="icons">
           <div className="iconsUp">
             <ul>
               {boxIconsUp.map((box) => (
                 <li key={box.id} className="up">
-                  <img src={box.image} alt={`Icon ${box.id}`} />
+                  <img src={box.image} alt={`Icon ${box.id}`} width={100} height={100}/>
                 </li>
               ))}
             </ul>
           </div>
+
           <div className="iconsDown">
             <ul>
               {boxIconsDown.map((icon) => (
                 <li key={icon.id} className="down">
-                  <img src={icon.image} alt={`Icon ${icon.id}`} />
+                  <img src={icon.image} alt={`Icon ${icon.id}`} width={64} height={64} />
                 </li>
               ))}
             </ul>
+      
           </div>
         </div>
+
         <div className="link1">
           <a href="/">Ver todos os resultados</a>
         </div>
@@ -97,9 +103,17 @@ export const HomeResultsCenter = () => {
               </span>
               <p>00.00 - 23:59 (Horario de Brasília)</p>
             </li>
-            <img src={emailIcons} alt="" />
-            <img id="emailIcons2" src={emailIcons} alt="" />
-            <img id="emailIcons3" src={emailIcons} alt="" />
+            <div className="emailIcons">
+            <div className="emailIcon1">
+              <img src={emailIcons} alt="" />
+            </div>
+            <div className="emailIcon2">
+              <img src={emailIcons} alt="" />
+            </div>
+            <div className="emailIcon3">
+              <img src={emailIcons} alt="" />
+            </div>
+            </div>
 
           </ul>
         </div>

@@ -1,124 +1,208 @@
 .resultsContainer {
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  width: 1440px;
-  height: 509px;
+  justify-content: space-between;
 }
 
-.resultsContainer h2 {
-  margin-left: 75px;
+.resultsCentral {
+  width: 50%; /* Ajuste a largura conforme necessário */
 }
-.arrow img {
+
+.eventsCalendar {
+  width: 50%; /* Ajuste a largura conforme necessário */
+}
+
+.titleResults{
+  width: 682px;
+  height: 56px;
+  font-family: 'Brandon Text';
+  font-style: normal;
+  font-weight: 330;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #12284C;
+}
+
+.titleResults h2{
+  margin-top: 800px;
   margin-left: 75px;
 }
 
-.titleResults {
-  flex-grow: 1;
+.arrows img {
+  margin-left: 75px;
+  margin-top: 425px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 582px;
+  height: 33px;
 }
 
 .iconsUp ul {
-  margin-top: 40px;
-  margin-left: 75px;
+  margin-top: -50px;
+  margin-left: 120px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  padding: 0px;
+  gap: 136px;
   width: 582px;
   height: 112px;
-  min-height: 112px; /* Adiciona um tamanho mínimo para evitar que fiquem muito pequenos */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;  
 }
 
-.iconsDown {
-  margin-left: 75px;
-  margin-top: 16px;
+.iconsUp .up img {
+  width: 64px;
+  height: 64px;  
+  object-fit: cover;  
+}
+
+.iconsDown ul{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  width: 582px;
+  height: 88px;
+}
+
+.iconsDown .down img{
+  margin-top: 100px;
+  margin-left: 120px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
 }
 
 .link1 {
-  font-family: "Brandon Text";
+  margin-left: 78px;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  width: 582px;
+  height: 24px;
+  font-family: 'Brandon Text';
   font-style: normal;
   font-weight: 390;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 65px;
-  margin-left: 75px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #12284C;
 }
 
-.eventsCalendar h2 {
-  margin-top: 300px;
-  margin-left: -180px;
+.eventsCalendar{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 624px;
-  height: 100px;
+  width: 699px;
+  height: 493px;
 }
 
-.listCalendar ul {
-  margin-left: -180px;
-  gap: 48px;
+.titleCalendar h2{
+  margin-left: -55px;
+  margin-top: 400px;
+  width: 624px;
+  height: 56px;
+  font-family: 'Brandon Text';
+  font-style: normal;
+  font-weight: 330;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  color: #12284C;
+}
+
+.listCalendar{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 75px 0px 0px;
+  width: 699px;
+  height: 493px;
 }
 
-.listCalendar h4 {
-  font-family: "Brandon Text";
+.listCalendar ul{
+  margin-left: -55px;
+  gap: 48px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 624px;
+  height: 100px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.listCalendar h4{
+  width: 132px;
+  height: 24px;
+  font-family: 'Brandon Text';
+  font-style: normal;
   font-weight: 390;
   font-size: 16px;
   line-height: 24px;
-  color: #00adbb;
+  display: flex;
+  align-items: center;
+  color: #00ADBB;
 }
 
-.listCalendar span {
-  font-family: "Brandon Text";
+.listCalendar span{
+  width: 592px;
+  height: 24px;
+  font-family: 'Brandon Text';
+  font-style: normal;
   font-weight: 390;
   font-size: 16px;
   line-height: 24px;
-  font-size: normal;
+  display: flex;
+  align-items: center;
   color: #262626;
 }
 
-.listCalendar p {
-  font-family: "Brandon Text";
+.listCalendar p{
+  width: 592px;
+  height: 24px;
+  font-family: 'Brandon Text';
+  font-style: normal;
   font-weight: 390;
   font-size: 14px;
   line-height: 24px;
-  font-size: normal;
+  display: flex;
+  align-items: center;
   color: #808080;
 }
 
-.listCalendar img {
-  width: 24px;
-  height: 52px;
-  display: flex;
-  margin-top: -350px;
-  margin-left: 520px; /* Ajuste o valor conforme necessário */
-}
-
-#emailIcons2 {
-  width: 24px;
-  height: 52px;
-  display: flex;
-  margin-top: 25px;
-  margin-left: 520px;
-}
-
-#emailIcons3 {
-  width: 24px;
-  height: 52px;
-  display: flex;
-  margin-top: 25px;
-  margin-left: 520px;
+.emailIcon1, .emailIcon2, .emailIcon3{
+  transform: translate(50%, 80%);
+  margin-top: -165px;
+  margin-left: 600px;
 }
 
 .link2{
-  margin-top: 16px;
-  margin-left: -181px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-top: 225px;
+  margin-left: -55px;
   width: 624px;
   height: 24px;
+  font-family: 'Brandon Text';
+  font-style: normal;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #12284C;
 }
-
-
