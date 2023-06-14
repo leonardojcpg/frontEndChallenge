@@ -1,0 +1,70 @@
+
+.announcements-footer-container {
+  margin-top: 2150px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 56px;
+  background: #0C1B33;
+}
+
+
+.announcements-container-content {
+  gap: 144px;
+  align-items: center;
+  font-family: "Brandon Text";
+  background-color: #0C1B33;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.announcements-container-content h4 {
+  margin-left: 75px;
+  color: #00adbb;
+}
+
+.announcements-linkedinLogo img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 600px) {
+  .announcements-footer-container {
+    font-family: "Brandon Text";
+    font-weight: 390;
+    height: 80px;
+    margin-top: 1984px;
+  }
+
+  .announcements-container-content {
+    color: #fff;
+    background-color: #0c1b33;
+    width: 100%; /* Alterado para largura de 100% */
+    height: auto; /* Alterado para altura automática */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alterado para centralizar o conteúdo */
+    align-items: center;
+    padding: 0 15px; /* Adicionado espaçamento horizontal */
+  }
+
+  .announcements-container-content h4 {
+    margin: 0; /* Removido o espaçamento à esquerda */
+    text-align: center; /* Centralizado o texto */
+    color: #00adbb;
+  }
+
+  .announcements-linkedinLogo img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px; /* Adicionado espaçamento à esquerda */
+    margin-right: 10px; /* Adicionado espaçamento à direita */
+  }
+}

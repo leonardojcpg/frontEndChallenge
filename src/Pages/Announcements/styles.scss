@@ -1,7 +1,349 @@
-#bg{
-    margin-top: 95px;
-    position: absolute;
-    width: 1254px;
-    height: 300px;
-    left: 186px;
+* {
+  font-family: "Brandon Text";
+}
+
+.top {
+  width: 100%;
+  height: 245px;
+  background-color: #12284c;
+}
+
+#topBg {
+  position: absolute;
+  width: 1254px;
+  height: 300px;
+  left: 186px;
+}
+
+.title {
+  color: #12284c;
+  background-color: #fff;
+  margin-left: 297px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 330;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  margin-top: 96px;
+  width: 846px;
+  height: 56px;
+}
+
+.text {
+  margin-top: 40px;
+  margin-left: 186px;
+  width: 1068px;
+  height: 72px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+}
+
+.numbersContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-left: 235px;
+  width: 1068px;
+  height: 74px;
+}
+.numbersContainer.h4 {
+  align-items: flex-end;
+  gap: 4px;
+  width: 24px;
+  height: 24px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #12284c;
+}
+
+.numbersContainer span {
+  width: 89px;
+  height: 50px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 50px;
+  text-align: center;
+  color: #00adbb;
+}
+
+.numbersContainer p {
+  width: 213.6px;
+  height: 24px;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #262626;
+}
+
+.boxInfo {
+  text-align: center;
+}
+
+.boxInfo h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.boxInfo p {
+  font-size: 16px;
+}
+
+.appointmentsContainer {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1440px;
+    height: 943px;
+    background: #12284c;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.appointmentsTitle h2{
+    margin-top: 64px;
+    margin-left: 186px;
+    width: 1068px;
+    height: 40px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+}
+
+.appointmentsBg {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 186px 0px 0px; 
+    width: 1440px;
+    height: 289px;
+}
+
+.environmentalTitle {
+    margin-top: 44px;
+    margin-left: 186px;
+    width: 1068px;
+    height: 36px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+}
+
+.firstParagraph {
+    margin-top: 24px;
+    margin-left: 186px;
+    width: 1068px;
+    height: 72px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.textPlusImg {
+  background-color: #12284c;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+}
+
+.textPlusImg p {
+  margin-left: 186px;
+  color: #fff;
+  font-family: "Brandon Text";
+  font-style: normal;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 513px;
+  height: 264px;
+}
+
+.textPlusImg img {
+    margin-left: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 513px;
+  height: 318px;
+}
+
+.socialContainer {
+    background-color: #12284c;
+  margin-bottom: 40px;
+}
+
+.socialTitle h3 {
+    margin-top: 44px;
+    margin-left: 186px;
+    width: 1068px;
+    height: 36px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+}
+
+#socialBg1{
+    margin-top: 24px;
+    margin-left: 186px;
+    width: 627px;
+    height: 333.33px;
+}
+
+
+.socialContainer p {
+    width: 1068px;
+    height: 48px;
+    margin-left: 186px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    margin-top: 28px;
+}
+
+.governanceBg{
+    margin-top: 350px;
+    display: flex;
+    width: 627px;
+    height: 333.33px;
+}
+
+.governanceContainer {
+  margin-bottom: 40px;
+}
+
+.governanceTitle {
+    margin-left: 186px;
+    margin-top: 44px;
+    width: 1068px;
+    height: 36px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+}
+
+.governanceContainer p {
+    margin-top: 104px;
+    width: 1068px;
+    height: 72px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.rating {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1440px;
+    height: 318px;
+}
+
+.ratingTitle{
+    margin-left: 186px;
+    margin-top: 64px;
+    width: 1068px;
+    height: 40px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+}
+
+.ratingImages img {
+    margin-left: 186px;
+    margin-top: 136px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1068px;
+    height: 182px;
+}
+
+.share span{
+    margin-top: 49px;
+    width: 97px;
+    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    color: #12284C;
+}
+.icons img {
+  margin-top: 100px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
