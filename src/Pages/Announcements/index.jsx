@@ -179,9 +179,9 @@ const Annoucements = () => {
               <div className="ratingImages">
                 <img src={ratingImg} alt="" />
               </div>
-              <div className="share">
+              <div className="announcements-share">
                 <span>Compartilhar: </span>
-                <div className="icons">
+                <div className="announcements-icons">
                   <img src={compIcon} alt="" />
                   <img src={imprimir} alt="" />
                   <img src={pdf} alt="" />

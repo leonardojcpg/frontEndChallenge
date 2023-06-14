@@ -28,10 +28,7 @@ export const HomeResultsCenter = () => {
       id: 3,
       image: iconDownOne,
     },
-    {
-      id: 4,
-      image: iconDownTwo,
-    },
+
   ];
 
   return (
@@ -46,22 +43,22 @@ export const HomeResultsCenter = () => {
           <img src={arrows} alt="" />
         </div>
 
-        <div className="icons">
-          <div className="iconsUp">
+        <div className="results-icons">
+          <div className="results-iconsUp">
             <ul>
               {boxIconsUp.map((box) => (
                 <li key={box.id} className="up">
-                  <img src={box.image} alt={`Icon ${box.id}`} width={100} height={100}/>
+                  <img src={box.image} alt={`Icon ${box.id}`}/>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="iconsDown">
+          <div className="results-iconsDown">
             <ul>
               {boxIconsDown.map((icon) => (
                 <li key={icon.id} className="down">
-                  <img src={icon.image} alt={`Icon ${icon.id}`} width={64} height={64} />
+                  <img src={icon.image} alt={`Icon ${icon.id}`} />
                 </li>
               ))}
             </ul>

@@ -1,208 +1,213 @@
-.resultsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  .resultsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.resultsCentral {
-  width: 50%; /* Ajuste a largura conforme necessário */
-}
+  .resultsCentral {
+    width: 50%; /* Ajuste a largura conforme necessário */
+  }
 
-.eventsCalendar {
-  width: 50%; /* Ajuste a largura conforme necessário */
-}
+  .eventsCalendar {
+    width: 50%; /* Ajuste a largura conforme necessário */
+  }
 
-.titleResults{
-  width: 682px;
-  height: 56px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 330;
-  font-size: 40px;
-  line-height: 56px;
-  display: flex;
-  align-items: center;
-  color: #12284C;
-}
+  .titleResults{
+    width: 682px;
+    height: 56px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 330;
+    font-size: 40px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #12284C;
+  }
 
-.titleResults h2{
-  margin-top: 600px;
-  margin-left: 75px;
-}
+  .titleResults h2{
+    margin-top: 600px;
+    margin-left: 75px;
+  }
 
-.arrows img {
-  margin-left: 75px;
-  margin-top: 325px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 32px;
-  width: 582px;
-  height: 33px;
-}
+  .arrows img {
+    margin-left: 75px;
+    margin-top: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 582px;
+    height: 33px;
+  }
 
-.iconsUp ul {
-  margin-top: -50px;
-  margin-left: 120px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 136px;
-  width: 582px;
-  height: 112px;
-  flex: none;
-  order: 4;
-  align-self: stretch;
-  flex-grow: 0;  
-}
+  .results-iconsUp ul {
+    margin: 0;
+    margin-left: 105px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 56px;
+    width: 582px;
+    height: 112px;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+  }
 
-.iconsUp .up img {
-  width: 64px;
-  height: 64px;  
-  object-fit: cover;  
-}
+  .results-iconsUp .up img {
+    width: 64px;
+    height: 64px;  
+    object-fit: cover;  
+  }
 
-.iconsDown ul{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 16px;
-  width: 582px;
-  height: 88px;
-}
+  .results-iconsDown ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    width: 582px;
+    height: 88px;
+  }
 
-.iconsDown .down img{
-  margin-top: 100px;
-  margin-left: 120px;
-  width: 64px;
-  height: 64px;
-  object-fit: cover;
-}
+  .results-iconsDown .down img {
+    margin: 0;
+    margin-top: 100px;
+    margin-right: 16px;
+    margin-left: -585px;
+    gap: 66px;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+  }
+  
 
-.link1 {
-  margin-left: 78px;
-  margin-top: 130px;
-  margin-bottom: 20px;
-  width: 582px;
-  height: 24px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 390;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-decoration-line: underline;
-  color: #12284C;
-}
+  .link1 {
+    margin-left: 78px;
+    margin-top: 220px;
+    margin-bottom: 20px;
+    width: 582px;
+    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #12284C;
+  }
 
-.eventsCalendar{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 699px;
-  height: 493px;
-}
+  .eventsCalendar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 699px;
+    height: 493px;
+  }
 
-.titleCalendar h2{
-  margin-left: -55px;
-  margin-top: 300px;
-  width: 624px;
-  height: 56px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 330;
-  font-size: 40px;
-  line-height: 56px;
-  display: flex;
-  color: #12284C;
-}
+  .titleCalendar h2{
+    margin-left: -55px;
+    margin-top: 300px;
+    width: 624px;
+    height: 56px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 330;
+    font-size: 40px;
+    line-height: 56px;
+    display: flex;
+    color: #12284C;
+  }
 
-.listCalendar{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 75px 0px 0px;
-  width: 699px;
-  height: 493px;
-}
+  .listCalendar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 75px 0px 0px;
+    width: 699px;
+    height: 493px;
+  }
 
-.listCalendar ul{
-  margin-left: -55px;
-  gap: 48px;
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  width: 624px;
-  height: 100px;
-  flex: none;
-  order: 2;
-  align-self: stretch;
-  flex-grow: 0;
-}
+  .listCalendar ul{
+    margin-left: -55px;
+    gap: 48px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 624px;
+    height: 100px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
 
-.listCalendar h4{
-  width: 132px;
-  height: 24px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 390;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #00ADBB;
-}
+  .listCalendar h4{
+    width: 132px;
+    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #00ADBB;
+  }
 
-.listCalendar span{
-  width: 592px;
-  height: 24px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 390;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #262626;
-}
+  .listCalendar span{
+    width: 592px;
+    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
 
-.listCalendar p{
-  width: 592px;
-  height: 24px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 390;
-  font-size: 14px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #808080;
-}
+  .listCalendar p{
+    width: 592px;
+    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #808080;
+  }
 
-.emailIcon1, .emailIcon2, .emailIcon3{
-  transform: translate(50%, 80%);
-  margin-top: -165px;
-  margin-left: 600px;
-}
+  .emailIcon1, .emailIcon2, .emailIcon3{
+    transform: translate(50%, 80%);
+    margin-top: -165px;
+    margin-left: 600px;
+  }
 
-.link2{
-  margin-top: 225px;
-  margin-left: -55px;
-  width: 624px;
-  height: 24px;
-  font-family: 'Brandon Text';
-  font-style: normal;
-  font-weight: 390;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-decoration-line: underline;
-  color: #12284C;
-}
+  .link2{
+    margin-top: 225px;
+    margin-left: -55px;
+    width: 624px;
+    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #12284C;
+  }

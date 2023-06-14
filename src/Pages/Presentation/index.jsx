@@ -78,14 +78,14 @@ const Presentation = () => {
       </div>
 
       <div className="bodyContainer">
-        <div className="title">
+        <div className="presentation-title">
           <h2>Apresentações Institucionais e de Conferências</h2>
         </div>
-        <div className="input">
+        <div className="presentation-input">
           <label htmlFor="">Filtrar por: </label>
           <input type="date" />
         </div>
-        <div className="list">
+        <div className="presentation-list">
           <ul>
             {listItems.map((item, index) => (
               <li key={index}>
@@ -104,9 +104,9 @@ const Presentation = () => {
           <button className='lastButton' onClick={() => handlePageChange(5)}>Última</button>
         </div>
 
-        <div className="share">
+        <div className="presentation-share">
           <p>Compartilhar: </p>
-          <div className="icons">
+          <div className="presentation-icons">
             <img src={compartilhar} alt="" />
             <img src={imprimir} alt="" />
             <img src={pdf} alt="" />

@@ -329,8 +329,9 @@
     height: 182px;
 }
 
-.share span{
-    margin-top: 5px;
+.announcements-share span{
+  margin-left: 190px;
+    margin-top: 100px;
     width: 97px;
     height: 24px;
     font-family: 'Brandon Text';
@@ -341,8 +342,10 @@
     display: flex;
     color: #12284C;
 }
-.icons img {
-  margin-top: 100px;
+.announcements-icons  {
+  display: flex;
+  margin-top: -20px;
+  margin-left: 300px;
   width: 24px;
   height: 24px;
   cursor: pointer;

@@ -39,7 +39,7 @@ const Results = () => {
 
       <div className="results-share">
         <p>Compartilhar: </p>
-        <div className="icons">
+        <div className="results-icons">
           <img src={compIcon} alt="" />
           <img src={imprimir} alt="" />
           <img src={pdf} alt="" />

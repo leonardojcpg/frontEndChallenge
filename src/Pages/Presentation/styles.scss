@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px 297px;
     width: 1440px;
     height: auto;
   }
@@ -38,8 +37,8 @@
     color: #12284C;
   }
   
-  .input label {
-    margin-left: 315px;
+  .presentation-input label {
+    margin-left: 600px;
     margin-top: 12px;
     height: 24px;
     font-family: 'Brandon Text';
@@ -52,9 +51,9 @@
     color: #666666;
   }
   
-  .input input {
+  .presentation-input input {
     margin-top: -30px;
-    margin-left: 400px;
+    margin-left: 680px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -71,8 +70,8 @@
     flex-grow: 1;
   }
   
-  .list ul {
-    margin-left: 297px;
+  .presentation-list ul {
+    margin-left: 600px;
     gap: 16px;
     margin-top: 24px;
     width: 846px;
@@ -82,13 +81,13 @@
     padding: 0px;
   }
   
-  .list li {
+  .presentation-list li {
     display: flex;
     align-items: center;
     width: 100%;
   }
   
-  .list span {
+  .presentation-list span {
     margin-left: -297px;
     margin-right: 10px;
     width: 90px;
@@ -101,7 +100,7 @@
     color: #808080;
   }
   
-  .list p {
+  .presentation-list p {
     margin-right: 10px;
     flex: 1;
     width: calc(100% - 120px);
@@ -114,7 +113,7 @@
     color: #262626;
   }
   
-  .list img {
+  .presentation-list img {
     width: 20px;
     height: 20px;
   }
@@ -133,7 +132,7 @@
   
   
   .pagesButton {
-    margin-left: 315px;
+    margin-left: 600px;
     margin-top: 24px;
     display: flex;
     justify-content: flex-start;
@@ -159,15 +158,15 @@
     width: 70px;
   }
   
-  .share {
-    margin-left: 315px;
+  .presentation-share {
+    margin-left: 300px;
     margin-top: 24px;
+    margin-bottom: 24px;
     display: flex;
     align-items: center;
   }
   
-  .share p {
-    margin-left: -425px;
+  .presentation-share p {
     width: 97px;
     height: 24px;
     font-family: 'Brandon Text';
@@ -180,6 +179,6 @@
     color: #12284C;
   }
   
-  .icons img{
-    margin-top: 100px;
+  .presentation-icons img{
+    margin-top: 10px;
   }
