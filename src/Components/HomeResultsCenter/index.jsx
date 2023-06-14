@@ -1,10 +1,10 @@
 import "./styles.scss";
 import arrows from "./assets/arrows.svg";
-import iconUpOne from "./assets/boxIcon1.svg";
-import iconUpTwo from "./assets/boxIcon2.svg";
-import iconUpThree from "./assets/boxIcon3.svg";
-import iconDownOne from "./assets/boxIconDown1.svg";
-import iconDownTwo from "./assets/boxIconDown2.svg";
+import iconUpOne from "./assets/iconUpOne.svg";
+import iconUpTwo from "./assets/iconUpTwo.svg";
+import iconUpThree from "./assets/iconUpThree.svg";
+import iconDownOne from "./assets/iconDownOne.svg";
+import iconDownTwo from "./assets/iconDownTwo.svg";
 import emailIcons from "./assets/emailIcons.svg";
 
 export const HomeResultsCenter = () => {

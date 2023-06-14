@@ -1,9 +1,8 @@
-.footer-container {
-    margin-top: 325px;
+.results-footer-container {
     background-color: #0C1B33;
     font-family: "Brandon Text", sans-serif;
     font-weight: 390;
-    height: 56px;
+    height: 66px;
     width: 1440px;
   }
   span h5{
@@ -11,28 +10,35 @@
     font-style: normal;
     line-height: 24px;
   }
-  .container-content {
+  .results-container-content {
+    align-items: center;
     color: #fff;
     width: 1290px;
-    height: 24px;
+    font-family: 'Brandon Text';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 14px;
+    line-height: 24px;
+    height: 64px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .container-content h4{
+  .results-container-content h4{
     margin-left: 75px;
     color: #00ADBB;
   }
   
-  .linkedinLogo img {
+  .results-linkedinLogo img {
+    margin-top: 5px;
     width: 24px;
     height: 24px;
   }
 
 
   @media (max-width: 600px){
-    .footer-container {
+    .results-footer-container {
       background-color: #0C1B33;
       font-family: "Brandon Text";
       font-weight: 390;
@@ -40,7 +46,7 @@
       margin-top: 1984px;
     }
     
-    .container-content {
+    .results-container-content {
       color: #fff;
       width: 100%; /* Alterado para largura de 100% */
       height: auto; /* Alterado para altura automática */
@@ -51,13 +57,13 @@
       padding: 0 15px; /* Adicionado espaçamento horizontal */
     }
     
-    .container-content h4 {
+    .results-container-content h4 {
       margin: 0; /* Removido o espaçamento à esquerda */
       text-align: center; /* Centralizado o texto */
       color: #00ADBB;
     }
     
-    .linkedinLogo img {
+    .results-linkedinLogo img {
       width: 24px;
       height: 24px;
       margin-left: 10px; /* Adicionado espaçamento à esquerda */

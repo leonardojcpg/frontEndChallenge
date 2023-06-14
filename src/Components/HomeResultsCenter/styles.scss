@@ -26,6 +26,7 @@
   align-items: flex-start;
   width: 582px;
   height: 112px;
+  min-height: 112px; /* Adiciona um tamanho mínimo para evitar que fiquem muito pequenos */
 }
 
 .iconsDown {
@@ -121,9 +122,3 @@
 }
 
 
-
-@media (max-width: 600px) {
-  .resultsContainer {
-    margin-top: 50px;
-  }
-}

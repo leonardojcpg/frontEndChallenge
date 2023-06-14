@@ -1,5 +1,4 @@
 import "./styles.scss";
-import { Footer } from "../../Components/Footer";
 import weAre from "./assets/WeAre.svg";
 import texture1 from "./assets/texture1.svg";
 import texture2 from "./assets/texture2.svg";
@@ -9,11 +8,12 @@ import toolIcon from "./assets/toolIcon.svg";
 import compIcon from "./assets/compIcon.svg"
 import imprimir from "./assets/imprimir.svg"
 import pdf from "./assets/pdf.svg"
+import { ResultsFooter } from "./ResultsFooter";
 
 
 const Results = () => {
   return (
-    <div className="page">
+    <>
       <div className="content">
         <img id="texture1" src={texture1} alt="" />
         <img id="texture2" src={texture2} alt="" />
@@ -45,8 +45,8 @@ const Results = () => {
           <img src={pdf} alt="" />
         </div>
       </div>
-      <Footer />
-    </div>
+      <ResultsFooter/>
+    </>
   );
 };
 
