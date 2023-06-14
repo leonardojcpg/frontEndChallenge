@@ -25,10 +25,10 @@ export const HomeInstitutional = () => {
     ]
 
     return (
-        <div className="container">
-            <ul className="list">
+        <div className="institutional-container">
+            <ul className="institutional-list">
             {cards.map((card) => (
-                <div key={card.id} className="card">
+                <div key={card.id} className="institutional-card">
                     <img src={card.image} alt={`Card ${card.id}`} />
                 </div>
             ))}

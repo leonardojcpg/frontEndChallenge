@@ -14,7 +14,7 @@ import { ResultsFooter } from "./ResultsFooter";
 const Results = () => {
   return (
     <>
-      <div className="content">
+      <div className="results-content">
         <img id="texture1" src={texture1} alt="" />
         <img id="texture2" src={texture2} alt="" />
         <img id="bg" src={bg} alt="" />
@@ -29,7 +29,7 @@ const Results = () => {
 
       <Table />
 
-      <div className="clickHere">
+      <div className="results-clickHere">
         <p>
           <a href="/results">Clique aqui </a>para ouvir o último Call de
           Resultados
@@ -37,7 +37,7 @@ const Results = () => {
         <img src={toolIcon} alt="" />
       </div>
 
-      <div className="share">
+      <div className="results-share">
         <p>Compartilhar: </p>
         <div className="icons">
           <img src={compIcon} alt="" />

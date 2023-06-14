@@ -1,18 +1,22 @@
-.container ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
+.institutional-container {
+  display: flex;
+  justify-content: center;
+}
 
-  .list{
-    margin-top: 225px;
-  }
-  
-  .card ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 360px;
-    height: 450px;
-  }
-  
+.institutional-list {
+  list-style: none;
+  display: flex;
+
+}
+
+.institutional-card {
+  width: 360px;
+  height: 450px;
+}
+
+.institutional-card img {
+  width: 100%;
+  margin-top: 225px;
+  height: 100%;
+  object-fit: cover;
+}
